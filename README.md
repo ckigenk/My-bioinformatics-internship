@@ -5,6 +5,7 @@ Hello. My name is Collins Kigen, and am currently a researcher working on Negele
 To become a world-class scientist and leader in the multi-omic research
 # Mission
 To utilize modern technologies in molecular biology, biotechnology, and bioinformatics to make discoveries that are impactful and applicable in alleviating the disease burden in Africa
-
+# Roadmap
+[Here](https://github.com/ckigenk/My-bioinformatics-internship/issues/1) is my roadmap for this this internship program
 
 
