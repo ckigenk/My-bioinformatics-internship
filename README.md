@@ -7,3 +7,4 @@ To become a world-class scientist and leader in the multi-omic research
 To utilize modern technologies in molecular biology, biotechnology, and bioinformatics to make discoveries that are impactful and applicable in alleviating the disease burden in Africa
 
 
+![Roadmap](https://user-images.githubusercontent.com/87149425/136232795-967c2318-63e5-4187-9076-dce3114b6404.png)
