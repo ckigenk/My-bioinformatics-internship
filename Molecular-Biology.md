@@ -13,5 +13,9 @@
 
 
 ## Mutations
+### Somatic mutations
+Occur in a single body cell and cannot be inherited (only tissues derived from mutated cell are affected) 
+### Germline mutations 
+Occur in gametes and can be passed onto offspring (every cell in the entire organism will be affected)
 ![image](https://user-images.githubusercontent.com/87149425/137112552-26fc447f-6325-4add-8694-e789c8fde2d6.png)
 
