@@ -1,31 +1,33 @@
 ### Question 1
 
-How many processes are currently running on your system? Use ps and wc, the first line of output of ps is not a process!
-ps -aux
-​
+How many processes are currently running on your system? Use ps and wc, the first line of output of ps is not a process!\
+```ps -aux```
 
 ### Question 2
 
 Write a script that upon invocation shows the time and date, lists all logged-in users, and gives the system uptime.
 The script then saves this information to a logfile.
+```#! /usr/bin/bash
+date | users | uptime > logfile.txt
+```
 ​
 
 ### Question 3
 
-Which command would you use in order to create an empty file in the current directory, let's say empty.txt?
-touch empty.txt
+Which command would you use in order to create an empty file in the current directory, let's say empty.txt?\
+```touch empty.txt```
 ​
 
 ### Question 4
 
-You are in /home/icipe/ suppose this directory is empty. How do you create in only one command the whole path /home/icipe/Work/mini-project/RNA-Seq/?
-mkdir -p Work/mini-project/RNA-Seq
+You are in /home/icipe/ suppose this directory is empty. How do you create in only one command the whole path /home/icipe/Work/mini-project/RNA-Seq/?\
+```mkdir -p Work/mini-project/RNA-Seq```
 
 ### Question 5
 
 Suppose your current working directory contains a file named seqs.txt. How do you rename this file into sequences.fasta?
-Does this have any effect on the content of the file, and if yes, what does it do?
-mv seqs.txt seq.fasta
+Does this have any effect on the content of the file, and if yes, what does it do?\
+```mv seqs.txt seq.fasta```
 ` No, the content of the file is not affected.`
 
 ### Question 6
@@ -43,13 +45,13 @@ echo "Hello, world!" > "universal greeting.txt"
 
 How can you use the commandline (on whichever machine you are now, that is connected to the internet) to download directly the
 file you can see on https://github.com/Fnyasimi/my-first-repo/blob/main/directory1/test.fa ? Be careful, you need to get the raw text file itself,
-not the full HTML page presenting it.
-wget https://github.com/Fnyasimi/my-first-repo/blob/main/directory1/test.fa
+not the full HTML page presenting it.\
+```wget https://github.com/Fnyasimi/my-first-repo/blob/main/directory1/test.fa```
 
 ### Question 9
 
-How can you count the number of lines in this text file (test.fa)? How do you count the number of sequences?
-wc -l test.fa
+How can you count the number of lines in this text file (test.fa)? How do you count the number of sequences?\
+```wc -l test.fa```
 
 ### Question 10
 
@@ -86,8 +88,8 @@ Write a loop in Bash producing all the integers from 1 to 30, one per line?
 ### Question 16
 
 Create at once 20 files called "trial1" to "trial20" and _then_ rename them all by appending the suffix ".data".
-Of course, don't issue 20 commands, but just one.
-touch trial{1..20}.data
+Of course, don't issue 20 commands, but just one.\
+```touch trial{1..20}.data```
 ​
 
 ### Question 17
@@ -131,5 +133,5 @@ Of course there will be at least an if or a case construct in your script.
 
 ### Question 20
 
-Suppose your current working directory is /home/icipe/Linux/Exercises/. What is the command that will enable to move to /home/icipe/Fun_stuff/?
-cd ../../Fun_stuff
+Suppose your current working directory is /home/icipe/Linux/Exercises/. What is the command that will enable to move to /home/icipe/Fun_stuff/?\
+```cd ../../Fun_stuff```
