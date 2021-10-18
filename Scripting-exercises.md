@@ -54,7 +54,7 @@ How can you count the number of lines in this text file (test.fa)? How do you co
 ### Question 10
 
 Extract only the identifier lines from this file, and write them into a file called "identifiers.txt".
-ls
+grep ">" test.fa identifiers.txt
 
 ### Question 11
 
