@@ -32,12 +32,18 @@ Does this have any effect on the content of the file, and if yes, what does it d
 ### Question 6
 
 How can you create in a single command a file containing the contents "Hello, world!" and named universal_greeting.txt?
-echo "Hello, world!" > universal_greeting.txt
+echo\ 
+```
+"Hello, world!" > universal_greeting.txt
+```
 ​
 ### Question 7
 
 What about creating the same file but with filename "universal greeting.txt" (the filename contains a space)?
-echo "Hello, world!" > "universal greeting.txt"
+echo\
+```
+"Hello, world!" > "universal greeting.txt"
+```
 
 ### Question 8
 
@@ -53,8 +59,10 @@ How can you count the number of lines in this text file (test.fa)? How do you co
 
 ### Question 10
 
-Extract only the identifier lines from this file, and write them into a file called "identifiers.txt".
+Extract only the identifier lines from this file, and write them into a file called "identifiers.txt".\
+```
 grep ">" test.fa identifiers.txt
+```
 
 ### Question 11
 
