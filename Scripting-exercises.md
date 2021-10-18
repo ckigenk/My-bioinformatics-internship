@@ -10,7 +10,6 @@ The script then saves this information to a logfile.
 ```#! /usr/bin/bash
 date | users | uptime > logfile.txt
 ```
-​
 
 ### Question 3
 
@@ -35,7 +34,6 @@ Does this have any effect on the content of the file, and if yes, what does it d
 How can you create in a single command a file containing the contents "Hello, world!" and named universal_greeting.txt?
 echo "Hello, world!" > universal_greeting.txt
 ​
-
 ### Question 7
 
 What about creating the same file but with filename "universal greeting.txt" (the filename contains a space)?
@@ -83,6 +81,12 @@ Once this is done, how do you count the species names with their order of multip
 ### Question 15
 
 Write a loop in Bash producing all the integers from 1 to 30, one per line?
+```
+for integer in {1..30}
+do
+echo $integer
+done
+```
 ​
 
 ### Question 16
