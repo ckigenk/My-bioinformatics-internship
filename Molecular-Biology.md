@@ -13,6 +13,7 @@
 
 
 ## Mutations
+Mutations refers to any alteration in DNA sequence of an organism. Mutation could be synonymous the change is in the DNA sequence that codes for amino acids in a protein sequence, but does not change the encoded amino acid or non synymous whereby it alters the amino acid sequence of a protein. 
 ### Somatic mutations
 Occur in a single body cell and cannot be inherited (only tissues derived from mutated cell are affected) 
 ### Germline mutations 
