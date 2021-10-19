@@ -90,7 +90,10 @@ sed "s/PREDICTED://g" identifers.txt > species.txt | cut -d " " -f 2,3 scientifi
 ### Question 14
 
 Once this is done, how do you count the species names with their order of multiplicity
-(i.e. how many sequences belong to Mus musculus, how many to Homo sapiens, etc)?
+(i.e. how many sequences belong to Mus musculus, how many to Homo sapiens, etc)?\
+```
+sort scientifNames.txt | uniq -c
+```
 ​
 
 ### Question 15
