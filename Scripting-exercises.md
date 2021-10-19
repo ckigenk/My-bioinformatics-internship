@@ -85,7 +85,7 @@ grep ">' test.fa
 Can you write a very short script (possibly one single commandline) to extract from the same file the species names?\
 
 ```
-sed "s/PREDICTED://g" > species.txt | cut -d " " -f 2,3 scientifNames.txt
+sed "s/PREDICTED://g" identifers.txt > species.txt | cut -d " " -f 2,3 scientificNames.txt
 ```
 ### Question 14
 
