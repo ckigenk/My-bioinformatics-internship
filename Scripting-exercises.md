@@ -114,6 +114,11 @@ Of course, don't issue 20 commands, but just one.\
 ### Question 17
 
 Try this with the command "expr 1 / 0", whose purpose is to calculate the integer result of 1 divided by 0. What happens? Why?
+
+```
+I get an out 'division by zero'
+The reason is any number divided by zero is gives infinite result
+```
 ### Question 18
 
 How can you separately redirect the standard output and the standard error streams into two separate files?
